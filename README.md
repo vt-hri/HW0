@@ -44,10 +44,16 @@ sudo apt update && sudo apt upgrade
 ### Mac
 
 ```bash
+# Download
+git clone https://github.com/vt-hri/HW0.git
+cd HW0
 # use conda to create a new environment and install dependencies, pip is not supported on macos/arm64 for pybullet
 conda create -n hri_hw0 python=3.10 -y
 conda activate hri_hw0
 conda install -c conda-forge pybullet numpy -y
+
+# Run the script
+python main.py
 ```
 
 ## Expected Output
