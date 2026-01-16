@@ -42,7 +42,28 @@ sudo apt update && sudo apt upgrade
 
 ### Mac
 
-[to implement]
+using pip install. 
+
+A solution is to use [Anaconda](https://www.anaconda.com/). Follow the instructions [here](https://www.anaconda.com/download/success). Once installed, make sure conda is setup correctly by running 
+```bash
+conda
+```
+
+You might have to source the .bash (or .zsh) file depending on which bash script the terminal uses. Or, simply close and re-open the terminal.
+
+```bash
+# Create a new conda env with python version 3.10.
+conda create -n venv python=3.10
+
+# Install pybullet from conda
+conda install pybullet
+
+# You can use pip to install all the other packages.
+pip install numpy
+
+# Run the script
+python main.py
+```
 
 ## Expected Output
 
