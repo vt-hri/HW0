@@ -42,9 +42,7 @@ sudo apt update && sudo apt upgrade
 
 ### Mac
 
-using pip install. 
-
-A solution is to use [Anaconda](https://www.anaconda.com/). Follow the instructions [here](https://www.anaconda.com/download/success). Once installed, make sure conda is setup correctly by running 
+You can use [Anaconda](https://www.anaconda.com/). Follow the instructions [here](https://www.anaconda.com/download/success). Once installed, make sure conda is setup correctly by running 
 ```bash
 conda
 ```
