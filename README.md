@@ -33,6 +33,7 @@ One way to run this is with WSL, [Windows Subsystem for Linux](https://learn.mic
 ```bash
 
 sudo apt update && sudo apt upgrade
+sudo apt install python3-pip
 
 ```
 
