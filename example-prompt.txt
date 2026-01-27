@@ -89,4 +89,4 @@ This Python code includes a sequence of functions that move the end-effector of 
 ---
 
 ### **User Task**
-The user command is **stack the blocks**.
+The user command is **pick up the block**.
